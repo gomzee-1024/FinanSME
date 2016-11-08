@@ -21,13 +21,6 @@
             android:layout_height="wrap_content"
             android:theme="@style/AppTheme.AppBarOverlay">
 
-            <!--android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                app:popupTheme="@style/AppTheme.PopupOverlay" /-->
-
             <android.support.v7.widget.CardView
                 android:id="@+id/search_view"
                 android:layout_width="match_parent"
@@ -65,33 +58,46 @@
                         />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
-            <LinearLayout
+            <!--android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" /-->
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|snap">
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Total Credit"
-                    android:textSize="16sp"
-                    android:textStyle="italic"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="56sp"
-                    android:textColor="@android:color/white"
-                    android:text="\u20B9 28.5"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="lakhs"
-                    android:textStyle="italic"
-                    android:layout_marginBottom="8dp"
-                    android:textColor="@android:color/white"/>
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    app:layout_scrollFlags="scroll|snap">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Credit"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="56sp"
+                        android:textColor="@android:color/white"
+                        android:text="\u20B9 28.5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lakhs"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+
             <!--android.support.design.widget.TabLayout
                 android:id="@+id/tab_layout"
                 android:layout_width="match_parent"

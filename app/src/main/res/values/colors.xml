@@ -6,4 +6,12 @@
     <color name="colorPrimaryDark">#2962FF</color>
     <color name="colorAccent">#FFC107</color>
     <color name="colorPrimaryLight">#03AFFF</color>
+    <color name="loans_accepted">#4CAF50</color>
+    <color name="loans_approved_text">#1B5E20</color>
+    <color name="loans_require_input">#FF9800</color>
+    <color name="loans_require_input_text">#BF360C</color>
+    <color name="loans_rejected_text">#B71C1C</color>
+    <color name="loans_rejected">#EF5350</color>
+    <color name="loans_in_process">#FFEB3B</color>
+    <color name="loans_in_process_text">#F57F17</color>
 </resources>
