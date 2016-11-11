@@ -11,7 +11,11 @@
     <color name="loans_require_input">#FF9800</color>
     <color name="loans_require_input_text">#BF360C</color>
     <color name="loans_rejected_text">#B71C1C</color>
-    <color name="loans_rejected">#EF5350</color>
+    <color name="loans_rejected">#EF9A9A</color>
     <color name="loans_in_process">#FFEB3B</color>
-    <color name="loans_in_process_text">#F57F17</color>
+    <color name="loans_in_process_text">#E65100</color>
+    <color name="loans_yet_to_be_processed_text">#01579B</color>
+    <color name="loans_yet_to_be_processed">#4FC3F7</color>
+    <color name="loans_require_submission_text">#263238</color>
+    <color name="loans_require_submission">#90A4AE</color>
 </resources>
