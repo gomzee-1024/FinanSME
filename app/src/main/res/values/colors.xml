@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--color name="colorPrimary">#03A9F4</color-->
-    <color name="colorPrimary">#2979FF</color>
+    <color name="colorPrimary">#3F51B5</color>
     <!--color name="colorPrimaryDark">#0288D1</color-->
-    <color name="colorPrimaryDark">#2962FF</color>
-    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
     <color name="colorPrimaryLight">#03AFFF</color>
     <color name="loans_accepted">#4CAF50</color>
     <color name="loans_approved_text">#1B5E20</color>
     <color name="loans_require_input">#FF9800</color>
     <color name="loans_require_input_text">#BF360C</color>
     <color name="loans_rejected_text">#B71C1C</color>
-    <color name="loans_rejected">#EF9A9A</color>
-    <color name="loans_in_process">#FFEB3B</color>
+    <color name="loans_rejected">#F44336</color>
     <color name="loans_in_process_text">#E65100</color>
     <color name="loans_yet_to_be_processed_text">#01579B</color>
     <color name="loans_yet_to_be_processed">#4FC3F7</color>
     <color name="loans_require_submission_text">#263238</color>
     <color name="loans_require_submission">#90A4AE</color>
+
+    <color name="loans_in_process">#FFAB00</color>
 </resources>

@@ -8,15 +8,9 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.power2sme.fsme.finansme.MainActivity"
     tools:showIn="@layout/activity_main">
-    <!--android.support.v4.view.ViewPager
+    <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" /-->
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:name="com.power2sme.fsme.finansme.MyAccountFragment"
-        android:id="@+id/my_account_fragment"
-        tools:layout="@layout/fragment_common" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 </FrameLayout>
